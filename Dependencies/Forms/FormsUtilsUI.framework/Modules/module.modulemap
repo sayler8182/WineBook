@@ -1,0 +1,11 @@
+framework module FormsUtilsUI {
+  umbrella header "FormsUtilsUI.h"
+
+  export *
+  module * { export * }
+}
+
+module FormsUtilsUI.Swift {
+    header "FormsUtilsUI-Swift.h"
+    requires objc
+}

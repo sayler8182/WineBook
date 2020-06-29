@@ -1,0 +1,11 @@
+framework module FormsNetworkingImage {
+  umbrella header "FormsNetworkingImage.h"
+
+  export *
+  module * { export * }
+}
+
+module FormsNetworkingImage.Swift {
+    header "FormsNetworkingImage-Swift.h"
+    requires objc
+}

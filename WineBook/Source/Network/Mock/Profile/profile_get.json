@@ -1,0 +1,7 @@
+{
+    "name": "My name",
+    "birthDate": "11/11/1967",
+    "email": "some@email.com",
+    "phoneNumber": "+48123456789",
+    "notifications": true
+}
