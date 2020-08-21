@@ -23,7 +23,7 @@ enum NetworkMethodsContact {
         }
         
         var content: NetworkMethodContent?
-        var session: NetworkSessionProtocol? = FileNetworkSession(delay: 1.0)
+        var session: NetworkSessionProtocol? = FileNetworkSession(isEnabled: Bundle.main.isApiMocked)
         var method: HTTPMethod = .POST
         var url: URL! = NetworkMethods.baseURL.appending("/contact").url
         var interceptor: NetworkRequestInterceptor? = SessionNetworkRequestInterceptor()

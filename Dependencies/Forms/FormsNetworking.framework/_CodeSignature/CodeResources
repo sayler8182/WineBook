@@ -18,23 +18,23 @@
 		</data>
 		<key>Modules/FormsNetworking.swiftmodule/Project/arm.swiftsourceinfo</key>
 		<data>
-		w/GdiNrY82ZJpv7BKZ2x5wEaXXI=
+		9FDkVcWiW5N+9YlfaFTGew2GRBs=
 		</data>
 		<key>Modules/FormsNetworking.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		MTbUVwNYbL2Tm5PBs9nJ60aHba4=
+		upu/kIJhUQRK1+OEZy/5G6U08L4=
 		</data>
 		<key>Modules/FormsNetworking.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		MTbUVwNYbL2Tm5PBs9nJ60aHba4=
+		upu/kIJhUQRK1+OEZy/5G6U08L4=
 		</data>
 		<key>Modules/FormsNetworking.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<data>
-		w/GdiNrY82ZJpv7BKZ2x5wEaXXI=
+		9FDkVcWiW5N+9YlfaFTGew2GRBs=
 		</data>
 		<key>Modules/FormsNetworking.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<data>
-		w/GdiNrY82ZJpv7BKZ2x5wEaXXI=
+		9FDkVcWiW5N+9YlfaFTGew2GRBs=
 		</data>
 		<key>Modules/FormsNetworking.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/FormsNetworking.swiftmodule/arm.swiftmodule</key>
 		<data>
-		hO/IRcMk/k4pXVHhZmAB52u/TQA=
+		vQ3lOX2zQNAxfY4UrVucUFRuN5A=
 		</data>
 		<key>Modules/FormsNetworking.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/FormsNetworking.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Tybz85U0oiM02b2mKzmIKN6oIxw=
+		U74wPvmJKx4c85+VlpKbOa5TDU8=
 		</data>
 		<key>Modules/FormsNetworking.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/FormsNetworking.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Tybz85U0oiM02b2mKzmIKN6oIxw=
+		U74wPvmJKx4c85+VlpKbOa5TDU8=
 		</data>
 		<key>Modules/FormsNetworking.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/FormsNetworking.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		hO/IRcMk/k4pXVHhZmAB52u/TQA=
+		vQ3lOX2zQNAxfY4UrVucUFRuN5A=
 		</data>
 		<key>Modules/FormsNetworking.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/FormsNetworking.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		hO/IRcMk/k4pXVHhZmAB52u/TQA=
+		vQ3lOX2zQNAxfY4UrVucUFRuN5A=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -105,55 +105,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w/GdiNrY82ZJpv7BKZ2x5wEaXXI=
+			9FDkVcWiW5N+9YlfaFTGew2GRBs=
 			</data>
 			<key>hash2</key>
 			<data>
-			tn1Ef7UvGY/1wkXFzGr/alq6CEiUI0ETGHgqkvwsHU8=
+			WR8fXSA1GqGCPNMUuoQ0G2SZJ9iiCxjo2vUtFwOcmvA=
 			</data>
 		</dict>
 		<key>Modules/FormsNetworking.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MTbUVwNYbL2Tm5PBs9nJ60aHba4=
+			upu/kIJhUQRK1+OEZy/5G6U08L4=
 			</data>
 			<key>hash2</key>
 			<data>
-			uOSXD/ut4XGjrAkzmceU2/SLv32DlJfUaO8Di8K6Z8Y=
+			XSJ1t6XSHt0e7DCOyNki5BoL44fMXAfEt9YmPXym/4w=
 			</data>
 		</dict>
 		<key>Modules/FormsNetworking.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MTbUVwNYbL2Tm5PBs9nJ60aHba4=
+			upu/kIJhUQRK1+OEZy/5G6U08L4=
 			</data>
 			<key>hash2</key>
 			<data>
-			uOSXD/ut4XGjrAkzmceU2/SLv32DlJfUaO8Di8K6Z8Y=
+			XSJ1t6XSHt0e7DCOyNki5BoL44fMXAfEt9YmPXym/4w=
 			</data>
 		</dict>
 		<key>Modules/FormsNetworking.swiftmodule/Project/armv7-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			w/GdiNrY82ZJpv7BKZ2x5wEaXXI=
+			9FDkVcWiW5N+9YlfaFTGew2GRBs=
 			</data>
 			<key>hash2</key>
 			<data>
-			tn1Ef7UvGY/1wkXFzGr/alq6CEiUI0ETGHgqkvwsHU8=
+			WR8fXSA1GqGCPNMUuoQ0G2SZJ9iiCxjo2vUtFwOcmvA=
 			</data>
 		</dict>
 		<key>Modules/FormsNetworking.swiftmodule/Project/armv7.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			w/GdiNrY82ZJpv7BKZ2x5wEaXXI=
+			9FDkVcWiW5N+9YlfaFTGew2GRBs=
 			</data>
 			<key>hash2</key>
 			<data>
-			tn1Ef7UvGY/1wkXFzGr/alq6CEiUI0ETGHgqkvwsHU8=
+			WR8fXSA1GqGCPNMUuoQ0G2SZJ9iiCxjo2vUtFwOcmvA=
 			</data>
 		</dict>
 		<key>Modules/FormsNetworking.swiftmodule/arm.swiftdoc</key>
@@ -171,11 +171,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hO/IRcMk/k4pXVHhZmAB52u/TQA=
+			vQ3lOX2zQNAxfY4UrVucUFRuN5A=
 			</data>
 			<key>hash2</key>
 			<data>
-			XKjYImzl/mdcPnjO8pbYYOxlyQm9hxlY5v+cbn5kKv4=
+			I2ySWFGmxPcT7GJvaAWxZv35lCnQnzaCeKn11wj81B0=
 			</data>
 		</dict>
 		<key>Modules/FormsNetworking.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -193,11 +193,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Tybz85U0oiM02b2mKzmIKN6oIxw=
+			U74wPvmJKx4c85+VlpKbOa5TDU8=
 			</data>
 			<key>hash2</key>
 			<data>
-			GVUyVKSC9v78vVTfRkFDqI4DIEt13zPBu+4inFBOjq0=
+			hLYZ6TPAki0lhbG9KGqlBezfBDwxT9UYVrMsvCI2wLk=
 			</data>
 		</dict>
 		<key>Modules/FormsNetworking.swiftmodule/arm64.swiftdoc</key>
@@ -215,11 +215,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Tybz85U0oiM02b2mKzmIKN6oIxw=
+			U74wPvmJKx4c85+VlpKbOa5TDU8=
 			</data>
 			<key>hash2</key>
 			<data>
-			GVUyVKSC9v78vVTfRkFDqI4DIEt13zPBu+4inFBOjq0=
+			hLYZ6TPAki0lhbG9KGqlBezfBDwxT9UYVrMsvCI2wLk=
 			</data>
 		</dict>
 		<key>Modules/FormsNetworking.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -237,11 +237,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hO/IRcMk/k4pXVHhZmAB52u/TQA=
+			vQ3lOX2zQNAxfY4UrVucUFRuN5A=
 			</data>
 			<key>hash2</key>
 			<data>
-			XKjYImzl/mdcPnjO8pbYYOxlyQm9hxlY5v+cbn5kKv4=
+			I2ySWFGmxPcT7GJvaAWxZv35lCnQnzaCeKn11wj81B0=
 			</data>
 		</dict>
 		<key>Modules/FormsNetworking.swiftmodule/armv7.swiftdoc</key>
@@ -259,11 +259,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hO/IRcMk/k4pXVHhZmAB52u/TQA=
+			vQ3lOX2zQNAxfY4UrVucUFRuN5A=
 			</data>
 			<key>hash2</key>
 			<data>
-			XKjYImzl/mdcPnjO8pbYYOxlyQm9hxlY5v+cbn5kKv4=
+			I2ySWFGmxPcT7GJvaAWxZv35lCnQnzaCeKn11wj81B0=
 			</data>
 		</dict>
 	</dict>

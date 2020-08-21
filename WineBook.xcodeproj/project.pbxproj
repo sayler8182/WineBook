@@ -118,6 +118,7 @@
 		716AAD0624A20AEC009C114C /* ProductDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716AAD0524A20AEC009C114C /* ProductDetailsResponse.swift */; };
 		716AAD0824A2114C009C114C /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 716AAD0724A2114C009C114C /* product.json */; };
 		716AAD0D24A222F4009C114C /* ComponentsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716AAD0C24A222F4009C114C /* ComponentsUtils.swift */; };
+		7176A00D24BC64A500E1BACE /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7176A00C24BC64A500E1BACE /* Config.swift */; };
 		7176A78424A33C13006F6BD0 /* DiscountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7176A77D24A33C13006F6BD0 /* DiscountPresenter.swift */; };
 		7176A78524A33C13006F6BD0 /* DiscountWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7176A77E24A33C13006F6BD0 /* DiscountWorker.swift */; };
 		7176A78624A33C13006F6BD0 /* DiscountRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7176A77F24A33C13006F6BD0 /* DiscountRouter.swift */; };
@@ -207,7 +208,6 @@
 		71D47BAD249CEF87001108C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71D47BAC249CEF87001108C5 /* GoogleService-Info.plist */; };
 		71D47BCA249CF5C7001108C5 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D47B9A249CE0C0001108C5 /* LocalAuthentication.framework */; };
 		71D47BD2249CF5CE001108C5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D47B9E249CE174001108C5 /* StoreKit.framework */; };
-		71D47C65249CFB9F001108C5 /* update.sh in Resources */ = {isa = PBXBuildFile; fileRef = 71D47C1B249CFB9C001108C5 /* update.sh */; };
 		71D47C72249CFE77001108C5 /* Forms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D47C14249CFB9C001108C5 /* Forms.framework */; };
 		71D47C73249CFE77001108C5 /* Forms.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 71D47C14249CFB9C001108C5 /* Forms.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		71D47C75249CFE78001108C5 /* FormsAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D47C1A249CFB9C001108C5 /* FormsAnalytics.framework */; };
@@ -416,6 +416,7 @@
 		716AAD0524A20AEC009C114C /* ProductDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsResponse.swift; sourceTree = "<group>"; };
 		716AAD0724A2114C009C114C /* product.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
 		716AAD0C24A222F4009C114C /* ComponentsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsUtils.swift; sourceTree = "<group>"; };
+		7176A00C24BC64A500E1BACE /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		7176A77D24A33C13006F6BD0 /* DiscountPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountPresenter.swift; sourceTree = "<group>"; };
 		7176A77E24A33C13006F6BD0 /* DiscountWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountWorker.swift; sourceTree = "<group>"; };
 		7176A77F24A33C13006F6BD0 /* DiscountRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountRouter.swift; sourceTree = "<group>"; };
@@ -1049,6 +1050,14 @@
 			path = AboutUs;
 			sourceTree = "<group>";
 		};
+		71C281FE24C96C8100D6D706 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				710EAD46249D065D0090D751 /* NotificationsFirebaseProvider.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
 		71CD516224A6020000DE9374 /* Purchases */ = {
 			isa = PBXGroup;
 			children = (
@@ -1132,6 +1141,7 @@
 				710EAD5B249D14980090D751 /* WineBook.entitlements */,
 				71D47BAC249CEF87001108C5 /* GoogleService-Info.plist */,
 				71D47A67249C96F0001108C5 /* Info.plist */,
+				7176A00C24BC64A500E1BACE /* Config.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -1219,11 +1229,11 @@
 			children = (
 				710EAD5A249D077F0090D751 /* Analytics */,
 				710EAD80249D2E790090D751 /* Forms */,
+				71C281FE24C96C8100D6D706 /* Notifications */,
 				710EAD53249D06D10090D751 /* SocialKit */,
 				71D47A99249C99BA001108C5 /* Assembies.swift */,
 				710EAD48249D065D0090D751 /* DeveloperToolsManager.swift */,
 				710EAD4A249D065D0090D751 /* HomeShortcutsKeys.swift */,
-				710EAD46249D065D0090D751 /* NotificationsFirebaseProvider.swift */,
 				7103190324A0BA7100BFD88A /* Storage.swift */,
 				71D47B2E249CB324001108C5 /* Theme.swift */,
 			);
@@ -1399,7 +1409,6 @@
 				71D47B1C249CA34B001108C5 /* LaunchScreen.storyboard in Resources */,
 				71D47BAD249CEF87001108C5 /* GoogleService-Info.plist in Resources */,
 				7103190824A0BCF500BFD88A /* signInWithGoogle.json in Resources */,
-				71D47C65249CFB9F001108C5 /* update.sh in Resources */,
 				71A9281E24A3416D00734C2B /* profile_post.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1557,6 +1566,7 @@
 				71A9288224A4918100734C2B /* ContactAssembly.swift in Sources */,
 				71A9289724A4C31A00734C2B /* AboutUsInteractor.swift in Sources */,
 				7103191524A0C04A00BFD88A /* DashboardRouter.swift in Sources */,
+				7176A00D24BC64A500E1BACE /* Config.swift in Sources */,
 				710EAD7A249D2BDE0090D751 /* RegisterWithEmailModels.swift in Sources */,
 				71A9289324A4C31A00734C2B /* AboutUsRouter.swift in Sources */,
 				7176A78924A33C13006F6BD0 /* DiscountAssembly.swift in Sources */,

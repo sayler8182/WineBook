@@ -66,7 +66,15 @@ class ProfileInteractor: ProfileBusinessLogic, ProfileDataStore {
     }
     
     func signOut(_ request: Profile.SignOut.Request) {
-        let response = Profile.SignOut.Response()
-        self.presenter.presentSignOut(response)
+        self.worker.signOut(
+            onSuccess: { [weak self] in
+                guard let `self` = self else { return }
+                let response = Profile.SignOut.Response()
+                self.presenter.presentSignOut(response)
+        }, onError: { [weak self] _ in
+            guard let `self` = self else { return }
+            let response = Profile.SignOut.Response()
+            self.presenter.presentSignOut(response)
+        })
     }
 }

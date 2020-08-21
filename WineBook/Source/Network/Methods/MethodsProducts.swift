@@ -23,7 +23,7 @@ enum NetworkMethodsProducts {
         }
         
         var content: NetworkMethodContent?
-        var session: NetworkSessionProtocol? = FileNetworkSession(delay: 1.0)
+        var session: NetworkSessionProtocol? = FileNetworkSession(isEnabled: Bundle.main.isApiMocked)
         var url: URL! = NetworkMethods.baseURL.appending("/products").url
         var interceptor: NetworkRequestInterceptor? = SessionNetworkRequestInterceptor()
         
@@ -43,7 +43,7 @@ enum NetworkMethodsProducts {
         }
         
         var content: NetworkMethodContent?
-        var session: NetworkSessionProtocol? = FileNetworkSession(filename: "product", delay: 1.0)
+        var session: NetworkSessionProtocol? = FileNetworkSession(filename: "product", isEnabled: Bundle.main.isApiMocked)
         var url: URL! {
             let content: Content? = self.content as? Content
             let id: String = content?.id ?? ""

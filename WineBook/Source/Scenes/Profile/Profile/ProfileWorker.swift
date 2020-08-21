@@ -43,5 +43,6 @@ class ProfileWorker {
     func signOut(onSuccess: @escaping () -> Void,
                  onError: @escaping (NetworkError) -> Void) {
         Storage.token.remove()
+        onSuccess()
     }
 }

@@ -12,14 +12,14 @@ import Foundation
 // MARK: NetworkMethodsProfile
 enum NetworkMethodsProfile {
     class discount: NetworkMethod {
-        var session: NetworkSessionProtocol? = FileNetworkSession(delay: 0.5)
+        var session: NetworkSessionProtocol? = FileNetworkSession(isEnabled: Bundle.main.isApiMocked)
         var url: URL! = NetworkMethods.baseURL.appending("/discount").url
         var interceptor: NetworkRequestInterceptor? = SessionNetworkRequestInterceptor()
     }
     
     enum profile {
         class get: NetworkMethod {
-            var session: NetworkSessionProtocol? = FileNetworkSession(filename: "profile_get", delay: 1.0)
+            var session: NetworkSessionProtocol? = FileNetworkSession(filename: "profile_get", isEnabled: Bundle.main.isApiMocked)
             var method: HTTPMethod = .GET
             var url: URL! = NetworkMethods.baseURL.appending("/profile").url
             var interceptor: NetworkRequestInterceptor? = SessionNetworkRequestInterceptor()
@@ -43,7 +43,7 @@ enum NetworkMethodsProfile {
             }
             
             var content: NetworkMethodContent?
-            var session: NetworkSessionProtocol? = FileNetworkSession(filename: "profile_post", delay: 1.0)
+            var session: NetworkSessionProtocol? = FileNetworkSession(filename: "profile_post", isEnabled: Bundle.main.isApiMocked)
             var method: HTTPMethod = .POST
             var url: URL! = NetworkMethods.baseURL.appending("/profile").url
             var interceptor: NetworkRequestInterceptor? = SessionNetworkRequestInterceptor()

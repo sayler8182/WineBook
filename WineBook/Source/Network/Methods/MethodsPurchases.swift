@@ -13,7 +13,7 @@ import Foundation
 enum NetworkMethodsPurchases {
     class purchases: NetworkMethod {
         var content: NetworkMethodContent?
-        var session: NetworkSessionProtocol? = FileNetworkSession(delay: 1.0)
+        var session: NetworkSessionProtocol? = FileNetworkSession(isEnabled: Bundle.main.isApiMocked)
         var url: URL! = NetworkMethods.baseURL.appending("/purchases").url
         var interceptor: NetworkRequestInterceptor? = SessionNetworkRequestInterceptor()
     }

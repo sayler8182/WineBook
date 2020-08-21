@@ -23,7 +23,7 @@ enum NetworkMethodsAuth {
         }
         
         var content: NetworkMethodContent? = nil
-        var session: NetworkSessionProtocol? = FileNetworkSession()
+        var session: NetworkSessionProtocol? = FileNetworkSession(isEnabled: Bundle.main.isApiMocked)
         var url: URL! = NetworkMethods.baseURL.appending("/signInWithApple").url
         
         init(_ content: Content) {
@@ -43,7 +43,7 @@ enum NetworkMethodsAuth {
         }
         
         var content: NetworkMethodContent? = nil
-        var session: NetworkSessionProtocol? = FileNetworkSession()
+        var session: NetworkSessionProtocol? = FileNetworkSession(isEnabled: Bundle.main.isApiMocked)
         var url: URL! = NetworkMethods.baseURL.appending("/signInWithEmail").url
         
         init(_ content: Content) {
@@ -65,7 +65,7 @@ enum NetworkMethodsAuth {
         }
         
         var content: NetworkMethodContent? = nil
-        var session: NetworkSessionProtocol? = FileNetworkSession(filename: "signInWithEmailCode")
+        var session: NetworkSessionProtocol? = FileNetworkSession(filename: "signInWithEmailCode", isEnabled: Bundle.main.isApiMocked)
         var url: URL! = NetworkMethods.baseURL.appending("/signInWithEmail/code").url
         
         init(_ content: Content) {
@@ -89,7 +89,7 @@ enum NetworkMethodsAuth {
         }
         
         var content: NetworkMethodContent? = nil
-        var session: NetworkSessionProtocol? = FileNetworkSession(filename: "signInWithEmailPassword")
+        var session: NetworkSessionProtocol? = FileNetworkSession(filename: "signInWithEmailPassword", isEnabled: Bundle.main.isApiMocked)
         var url: URL! = NetworkMethods.baseURL.appending("/signInWithEmail/password").url
         
         init(_ content: Content) {
@@ -109,7 +109,7 @@ enum NetworkMethodsAuth {
         }
         
         var content: NetworkMethodContent? = nil
-        var session: NetworkSessionProtocol? = FileNetworkSession()
+        var session: NetworkSessionProtocol? = FileNetworkSession(isEnabled: Bundle.main.isApiMocked)
         var url: URL! = NetworkMethods.baseURL.appending("/signInWithFacebook").url
         
         init(_ content: Content) {
@@ -129,7 +129,7 @@ enum NetworkMethodsAuth {
         }
         
         var content: NetworkMethodContent? = nil
-        var session: NetworkSessionProtocol? = FileNetworkSession()
+        var session: NetworkSessionProtocol? = FileNetworkSession(isEnabled: Bundle.main.isApiMocked)
         var url: URL! = NetworkMethods.baseURL.appending("/signInWithGoogle").url
         
         init(_ content: Content) {
@@ -157,7 +157,7 @@ enum NetworkMethodsAuth {
         }
         
         var content: NetworkMethodContent? = nil
-        var session: NetworkSessionProtocol? = FileNetworkSession()
+        var session: NetworkSessionProtocol? = FileNetworkSession(isEnabled: Bundle.main.isApiMocked)
         var url: URL! = NetworkMethods.baseURL.appending("/signUpWithEmail").url
         
         init(_ content: Content) {

@@ -26,7 +26,7 @@ extension ComponentsLabels {
         }
         static func auth() -> Label {
             let component = ComponentsLabels.title.big()
-            component.marginEdgeInset = UIEdgeInsets(top: 44)
+            component.marginEdgeInset = UIEdgeInsets(top: 44, leading: 16, bottom: 0, trailing: 16)
             return component
         }
         static func big() -> Label {

@@ -28,7 +28,7 @@ enum NetworkMethods {
 struct NetworkAssembly: Assembly {
     func assemble(injector: Injector) {
         injector.register(String.self, name: NetworkMethods.baseURLKey) { _ in
-            "localhost://api"
+            "http://127.0.0.1:8080//api"
         }
     }
 }
